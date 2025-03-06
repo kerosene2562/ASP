@@ -1,0 +1,33 @@
+﻿@model dynamic
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table tr th td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>About lab</h2>
+    <table>
+        <tr>
+            <td>Lab number</td>
+            <td>@Model.Number</td>
+        </tr>
+        <tr>
+            <td>Theme</td>
+            <td>@Model.Topic</td>
+        </tr>
+        <tr>
+            <td>Goal</td>
+            <td>@Model.Goal</td>
+        </tr>
+        <tr>
+            <td>Student</td>
+            <td>@Model.Author</td>
+        </tr>
+    </table>
+</body>
+</html>
