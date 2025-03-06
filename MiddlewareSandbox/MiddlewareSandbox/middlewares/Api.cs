@@ -21,7 +21,7 @@ namespace MiddlewareSandbox.middlewares
                 await context.Response.WriteAsync("Invalid API key.");
                 return;
             }
-
+             
             await _next(context);
         }
     }
