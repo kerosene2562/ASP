@@ -1,0 +1,31 @@
+﻿@using NewsPortal.Models.ViewModel;
+@using NewsPortal.Models;
+@model PagedList<News>
+
+@foreach (var news in Model.Items)
+{
+    <div class="news-container">
+        <div class="news-item">
+            <h3>@news.Title</h3>
+            @news.Text
+            <h4>@news.PublicationDate</h4>
+        </div>
+    </div>
+	
+}
+<div id="pagination-container">
+    @if (Model.PagingInfo.CurrentPage > 1)
+    {
+        <a class="pagination" asp-action="Index" asp-route-page="@(Model.PagingInfo.CurrentPage - 1)">Попередня</a>
+    }
+
+    @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+    {
+        <a class="pagination" asp-action="Index" asp-route-page="@i">@i</a>
+    }
+
+    @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+    {
+        <a class="pagination" asp-action="Index" asp-route-page="@(Model.PagingInfo.CurrentPage + 1)">Наступна</a>
+    }
+</div>
