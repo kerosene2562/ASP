@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NewsPortal.Models;
 
@@ -11,9 +12,11 @@ using NewsPortal.Models;
 namespace NewsPortal.Migrations
 {
     [DbContext(typeof(NewsPortalDBContext))]
-    partial class NewsPortalDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250403222405_AddNewTable")]
+    partial class AddNewTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,8 +50,9 @@ namespace NewsPortal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("NewsID"));
 
-                    b.Property<int>("CategoryID")
-                        .HasColumnType("int");
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImgDirUrl")
                         .IsRequired()
@@ -67,25 +71,7 @@ namespace NewsPortal.Migrations
 
                     b.HasKey("NewsID");
 
-                    b.HasIndex("CategoryID");
-
                     b.ToTable("News");
-                });
-
-            modelBuilder.Entity("NewsPortal.Models.News", b =>
-                {
-                    b.HasOne("NewsPortal.Models.Category", "Category")
-                        .WithMany("News")
-                        .HasForeignKey("CategoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("NewsPortal.Models.Category", b =>
-                {
-                    b.Navigation("News");
                 });
 #pragma warning restore 612, 618
         }

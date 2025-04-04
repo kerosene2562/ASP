@@ -2,4 +2,23 @@
 @using NewsPortal.Models;
 @model PagedList<News>
 
-@await Html.PartialAsync("Model", Model);
+@foreach (var news in Model.Items)
+{
+    <partial name="News" model="news" />
+}
+<div id="pagination-container">
+    @if (Model.PagingInfo.CurrentPage > 1) 
+    {
+        <a class="pagination" asp-action="Index" asp-route-page="@(Model.PagingInfo.CurrentPage - 1)" asp-route-categoryId="@Model.SelectedCategoryId">Попередня</a>
+    }
+
+    @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+    {
+        <a class="pagination" asp-action="Index" asp-route-page="@i" asp-route-categoryId="@Model.SelectedCategoryId">@i</a>
+    }
+
+    @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+    {
+        <a class="pagination" asp-action="Index" asp-route-page="@(Model.PagingInfo.CurrentPage + 1)" asp-route-categoryId="@Model.SelectedCategoryId">Наступна</a>
+    }
+</div>

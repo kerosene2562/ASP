@@ -10,5 +10,6 @@ namespace NewsPortal.Models
             this.context = context;
         }
         public IQueryable<News> News => context.News;
+        public IQueryable<Category> Categories => context.Categories;
     }
 }

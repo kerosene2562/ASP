@@ -1,0 +1,13 @@
+﻿@model IEnumerable<NewsPortal.Models.Category>
+
+<form method="get">
+    <label for="categoryId">Категорія</label>
+    <select name="categoryId" id="categoryId">
+        <option value = "">всі категорії</option>
+        @foreach(var category in Model)
+        {
+            <option value = "@category.Id">@category.Name</option>
+        }
+    </select>
+    <button type="submit">фільтрувати</button>
+</form>

@@ -6,5 +6,6 @@ namespace NewsPortal.Models
     {
         public NewsPortalDBContext(DbContextOptions<NewsPortalDBContext> options) : base(options) { }
         public DbSet<News> News => Set<News>();
+        public DbSet<Category> Categories => Set<Category>();
     }
 }

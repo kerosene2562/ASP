@@ -46,14 +46,15 @@
 			text-align: center;
 			text-decoration: none;
 		}
-
-		footer{
-			display: flex;
-			width: 100%;
-			height: 50px;
-			background-color: lightblue;
-			align-items: center;
-			justify-content: center;
+		aside{
+			width: 250px;
+			height: 190px;
+			border: 3px solid red;
+			position: fixed; 
+			left: 0;
+			top: 150px;
+			bottom: 0;
+			overflow-y: auto;
 		}
 	</style>
 </head>
@@ -62,11 +63,11 @@
 		<h1>NewsPortal</h1>
 		<p>Останні новини з усього світу</p>
 	</header>
+	<aside>
+		@await Component.InvokeAsync("NavigationMenu")
+	</aside>
 	<div>
 		@RenderBody()
 	</div>
-	<footer>
-		<p>2025 NewsPortal. Всі права захищено.</p>
-	</footer>
 </body>
 </html>

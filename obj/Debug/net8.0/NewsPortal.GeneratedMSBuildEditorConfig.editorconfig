@@ -32,8 +32,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/programs/ASP/lab2/NewsPortalSln/NewsPortal/Views/Home/Model.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb2RlbC5jc2h0bWw=
+[D:/programs/ASP/lab2/NewsPortalSln/NewsPortal/Views/Shared/Components/NavigationMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvbk1lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programs/ASP/lab2/NewsPortalSln/NewsPortal/Views/Shared/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5ld3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/programs/ASP/lab2/NewsPortalSln/NewsPortal/Views/Shared/_Layout.cshtml]

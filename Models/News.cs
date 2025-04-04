@@ -7,6 +7,7 @@
         public string Text { get; set; }
         public DateTime PublicationDate { get; set; }
         public string ImgDirUrl { get; set; }
-        public string Category { get; set; }
+        public int CategoryID { get; set; }
+        public Category Category { get; set; }
     }
 }

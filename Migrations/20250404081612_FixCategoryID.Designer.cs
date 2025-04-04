@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NewsPortal.Models;
 
@@ -11,9 +12,11 @@ using NewsPortal.Models;
 namespace NewsPortal.Migrations
 {
     [DbContext(typeof(NewsPortalDBContext))]
-    partial class NewsPortalDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250404081612_FixCategoryID")]
+    partial class FixCategoryID
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
