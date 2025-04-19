@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tAp3r0+8tEvbiPZNnHLVgdxy9hdyEZy+0CkeSGBbjvA=",
+  "Hash": "BCzidGykbB49RrtsqF60eUTCK/qh3vNkv+F6XxSn5Yo=",
   "Source": "NewsPortal",
   "BasePath": "_content/NewsPortal",
   "Mode": "Default",
@@ -16,6 +16,69 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.min.js",
+      "SourceId": "NewsPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\",
+      "BasePath": "_content/NewsPortal",
+      "RelativePath": "js/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qf9vw40fu9",
+      "Integrity": "hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.min.js",
+      "SourceId": "NewsPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\",
+      "BasePath": "_content/NewsPortal",
+      "RelativePath": "js/jquery.validate.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cjxj5ji00j",
+      "Integrity": "eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "NewsPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\",
+      "BasePath": "_content/NewsPortal",
+      "RelativePath": "js/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a423kymavr",
+      "Integrity": "emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.validate.unobtrusive.min.js"
+    },
     {
       "Identity": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "NewsPortal",
@@ -2874,6 +2937,252 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "js/jquery.min.js",
+      "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.qf9vw40fu9.js",
+      "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qf9vw40fu9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.min.cjxj5ji00j.js",
+      "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjxj5ji00j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.validate.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.min.js",
+      "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.unobtrusive.min.a423kymavr.js",
+      "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a423kymavr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.validate.unobtrusive.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94="
+        }
+      ]
+    },
     {
       "Route": "lib/bootstrap/css/bootstrap.css",
       "AssetFile": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",

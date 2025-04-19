@@ -2,6 +2,10 @@
 @using NewsPortal.Models;
 @model PagedList<News>
 
+<aside>
+    @await Component.InvokeAsync("NavigationMenu")
+</aside>
+
 @foreach (var news in Model.Items)
 {
     <partial name="News" model="news" />

@@ -1,0 +1,20 @@
+﻿@model NewsPortal.Models.News
+
+@{
+    ViewData["Title"] = "Delete News";
+}
+
+<h1>Are you sure you want to delete this news?</h1>
+
+<div>
+    <h2>@Model.Title</h2>
+    <p><strong>Publication Date:</strong> @Model.PublicationDate.ToString("yyyy-MM-dd")</p>
+    <p><strong>Category ID:</strong> @Model.CategoryID</p>
+    <p>@Model.Text</p>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" name="id" value="@Model.NewsID" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

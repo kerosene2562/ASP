@@ -1,0 +1,22 @@
+﻿@model NewsPortal.Models.News
+
+@{
+    ViewData["Title"] = "News Details";
+}
+
+<h1>@Model.Title</h1>
+
+<p><strong>Publication Date:</strong> @Model.PublicationDate.ToString("yyyy-MM-dd")</p>
+<p><strong>Category ID:</strong> @Model.CategoryID</p>
+
+@if (!string.IsNullOrEmpty(Model.ImgDirUrl))
+{
+    <img src="@Model.ImgDirUrl" alt="News Image" class="img-fluid" />
+}
+
+<p><strong>Text:</strong></p>
+<p>@Model.Text</p>
+
+<a href="@Url.Action("Edit", new { id = Model.NewsID })" class="btn btn-warning">Edit</a>
+<a href="@Url.Action("Delete", new { id = Model.NewsID })" class="btn btn-danger">Delete</a>
+<a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>

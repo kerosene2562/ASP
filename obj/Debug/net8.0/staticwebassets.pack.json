@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.min.js"
+    },
+    {
       "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },

@@ -40,7 +40,7 @@ namespace NewsPortal.Models
                         PublicationDate = DateTime.Now,
                         ImgDirUrl = "Imgs/img1.png",
                         CategoryID = category1.Id, 
-                        Category = category1
+                        //Category = category1
                     },
                     new News
                     {
@@ -49,7 +49,7 @@ namespace NewsPortal.Models
                         PublicationDate = DateTime.Now,
                         ImgDirUrl = "Imgs/img2.png",
                         CategoryID = category2.Id,
-                        Category = category2
+                        //Category = category2
                     },
                     new News
                     {
@@ -58,7 +58,7 @@ namespace NewsPortal.Models
                         PublicationDate = DateTime.Now,
                         ImgDirUrl = "Imgs/img3.png",
                         CategoryID = category3.Id,
-                        Category = category3
+                        //Category = category3
                     }
                 );
 

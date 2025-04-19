@@ -3,6 +3,252 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "js/jquery.min.js",
+      "AssetFile": "js/jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.qf9vw40fu9.js",
+      "AssetFile": "js/jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qf9vw40fu9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hrEcsLidkJN28c6m50B7s79tYZgKk5r7PV9TL6E2Yak="
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.min.cjxj5ji00j.js",
+      "AssetFile": "js/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjxj5ji00j"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4="
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.validate.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.min.js",
+      "AssetFile": "js/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eF5sqZm2d+zpXBjSB3WGsJTlC25xlo/eDHgR1YSMvv4="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.unobtrusive.min.a423kymavr.js",
+      "AssetFile": "js/jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a423kymavr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94="
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.validate.unobtrusive.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "js/jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:41:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-emkRbV0CnEhmSemLAj10eiaEYjc53t4SkoPAWlIcj94="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/css/bootstrap-grid.bqjiyaj88i.css",
       "AssetFile": "lib/bootstrap/css/bootstrap-grid.css",
       "Selectors": [],
