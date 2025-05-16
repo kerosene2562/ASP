@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|d:\\programs\\asp\\lab2\\newsportalsln\\newsportal\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|solutionrelative:newsportal\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|d:\\programs\\asp\\lab2\\newsportalsln\\newsportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|solutionrelative:newsportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|d:\\programs\\asp\\lab2\\newsportalsln\\newsportal\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|solutionrelative:newsportal\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|d:\\programs\\asp\\lab2\\newsportalsln\\newsportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0CB6D4-89A5-4A40-9169-F78F2E1B8AFC}|NewsPortal\\NewsPortal.csproj|solutionrelative:newsportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "NewsPortal\\Controllers\\NewsController.cs",
+              "ToolTip": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "NewsPortal\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:54:11.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NewsPortal\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NewsPortal\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:54:09.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "NewsPortal\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "NewsPortal\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:54:07.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "NewsPortal\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsPortal\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "NewsPortal\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:54:03.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "NewsPortal.API\\NewsPortal.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NewsPortal\\NewsPortal.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
