@@ -1,0 +1,12 @@
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.csproj.AssemblyReference.cache
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.AssemblyInfoInputs.cache
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.AssemblyInfo.cs
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.csproj.CoreCompileInputs.cache
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\bin\Debug\net8.0\NewsPortal.Data.deps.json
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\bin\Debug\net8.0\NewsPortal.Data.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\bin\Debug\net8.0\NewsPortal.Data.pdb
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\refint\NewsPortal.Data.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.pdb
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\ref\NewsPortal.Data.dll

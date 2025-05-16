@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/58hIzJ4aSLQqpJITVQXYhV6R6bRlM7M8+VXAHUzvRE=",
+  "Source": "NewsPortal.API",
+  "BasePath": "_content/NewsPortal.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
