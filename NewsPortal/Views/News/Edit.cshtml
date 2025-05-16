@@ -1,0 +1,55 @@
+﻿@model NewsPortal.Models.News
+
+@{
+    ViewData["Title"] = "Edit News";
+    var categories = ViewBag.Categories as List<NewsPortal.Models.Category>;
+}
+
+<h1>Edit News</h1>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="NewsID" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Text"></label>
+        <textarea asp-for="Text" class="form-control"></textarea>
+        <span asp-validation-for="Text" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PublicationDate"></label>
+        <input asp-for="PublicationDate" type="date" class="form-control" />
+        <span asp-validation-for="PublicationDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImgDirUrl"></label>
+        <input asp-for="ImgDirUrl" class="form-control" />
+        <span asp-validation-for="ImgDirUrl" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryID">Category</label>
+        <select asp-for="CategoryID" class="form-control">
+            @if (categories != null)
+            {
+                foreach (var category in categories)
+                {
+                    var selected = category.Id == Model.CategoryID ? "selected" : "";
+                    <option value="@category.Id" selected="@selected">@category.Name</option>
+                }
+            }
+        </select>
+
+        <span asp-validation-for="CategoryID" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

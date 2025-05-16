@@ -1,0 +1,119 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>NewsPortal</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: lightblue;
+			height: 150px;
+			text-align: center;
+			padding-top: 1px;
+			position: relative;
+		}
+
+		.header-buttons {
+			position: absolute;
+			top: 10px;
+			right: 20px;
+			display: flex;
+			gap: 10px;
+		}
+
+			.header-buttons a {
+				background-color: #007bff;
+				color: white;
+				padding: 10px 15px;
+				border-radius: 5px;
+				text-decoration: none;
+				font-weight: bold;
+			}
+
+				.header-buttons a:hover {
+					background-color: #0056b3;
+				}
+
+		.news-item {
+			margin: 10px;
+			background-color: grey;
+			width: 150px;
+		}
+
+		.news-container {
+			display: flex;
+			width: 100%;
+			justify-content: center;
+		}
+
+		#pagination-container {
+			display: flex;
+			margin-top: 20px;
+			width: 100%;
+			justify-content: center;
+		}
+
+		.pagination {
+			background-color: orange;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin-left: 10px;
+			padding-left: 5px;
+			padding-right: 5px;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		aside {
+			width: 250px;
+			height: 190px;
+			border: 3px solid red;
+			position: fixed;
+			left: 0;
+			top: 150px;
+			bottom: 0;
+			overflow-y: auto;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>NewsPortal</h1>
+		<p>Останні новини з усього світу</p>
+		<div class="header-buttons">
+			<a asp-controller="Home" asp-action="Index">Новини</a>
+			@if (User.IsInRole("admin"))
+			{
+				<a asp-controller="Category" asp-action="Index">Адмінка</a>
+			}
+
+			@if (!User.Identity.IsAuthenticated)
+			{
+				<a asp-controller="Account" asp-action="Login">Логін</a>
+				<a asp-controller="Account" asp-action="Register">Реєстрація</a>
+			}
+			else
+			{
+				<a asp-controller="Account" asp-action="Profile">Профіль</a>
+				<form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+					<button type="submit" style="background-color:#007bff;color:white;padding:10px 15px;border:none;border-radius:5px;cursor:pointer;">Вийти</button>
+				</form>
+			}
+		</div>
+
+	</header>
+	<div>
+		@RenderBody()
+	</div>
+	@RenderSection("Scripts", required: false)
+</body>
+</html>

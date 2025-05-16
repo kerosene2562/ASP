@@ -1,0 +1,35 @@
+﻿@model IEnumerable<NewsPortal.Models.News>
+
+@{
+    ViewData["Title"] = "News List";
+}
+
+<h1>News List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Publication Date</th>
+            <th>Category ID</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var news in Model)
+        {
+            <tr>
+                <td>@news.Title</td>
+                <td>@news.PublicationDate.ToString("yyyy-MM-dd")</td>
+                <td>@news.CategoryID</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = news.NewsID })">Details</a> |
+                    <a href="@Url.Action("Edit", new { id = news.NewsID })">Edit</a> |
+                    <a href="@Url.Action("Delete", new { id = news.NewsID })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New News</a>

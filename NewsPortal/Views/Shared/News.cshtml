@@ -1,0 +1,15 @@
+﻿@using NewsPortal.Models
+
+<div class="news-container">
+    <div class="news-item">
+        <h3>@Model.Title</h3>
+        <p>@Model.Text</p>
+        <h4>@Model.PublicationDate</h4>
+
+        <form method="post" asp-action="SaveViewedNews">
+            <input type="hidden" name="newsId" value="@Model.NewsID" />
+            <input type="hidden" name="newsTitle" value="@Model.Title" />
+            <button type="submit">Переглянути</button>
+        </form>
+    </div>
+</div>

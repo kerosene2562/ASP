@@ -1,0 +1,44 @@
+﻿@model NewsPortal.Models.News
+
+@{
+    ViewData["Title"] = "Create News";
+}
+
+<h1>Create New News</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Text"></label>
+        <textarea asp-for="Text" class="form-control"></textarea>
+        <span asp-validation-for="Text" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PublicationDate"></label>
+        <input asp-for="PublicationDate" type="date" class="form-control" />
+        <span asp-validation-for="PublicationDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImgDirUrl"></label>
+        <input asp-for="ImgDirUrl" class="form-control" />
+        <span asp-validation-for="ImgDirUrl" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryID">Category</label>
+        <select asp-for="CategoryID" asp-items="ViewBag.Categories" class="form-control">
+        </select>
+
+        <span asp-validation-for="CategoryID" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
