@@ -53,15 +53,24 @@ namespace NewsPortal.API.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var existing = _repository.News.FirstOrDefault(n => n.NewsID == id);
-            if (existing == null)
+            if (id != newsItem.NewsID)
+                return BadRequest("ID mismatch");
+
+            try
+            {
+                _repository.UpdateNews(newsItem);
+                return NoContent();
+            }
+            catch (KeyNotFoundException)
+            {
                 return NotFound();
-
-            newsItem.NewsID = id;
-            _repository.UpdateNews(newsItem);
-
-            return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
+
 
         // DELETE: api/news/5
         [HttpDelete("{id}")]

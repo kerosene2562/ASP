@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "ContainingType": "NewsPortal.API.Controllers.AccountApiController",
+    "Method": "Login",
+    "RelativePath": "api/AccountApi/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.AccountApiController",
+    "Method": "Logout",
+    "RelativePath": "api/AccountApi/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.AccountApiController",
+    "Method": "Register",
+    "RelativePath": "api/AccountApi/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NewsPortal.Models.UserRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.CategoryController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "NewsPortal.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.CategoryController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "NewsPortal.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.NewsController",
+    "Method": "GetAll",
+    "RelativePath": "api/News",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.NewsController",
+    "Method": "Create",
+    "RelativePath": "api/News",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsItem",
+        "Type": "NewsPortal.Models.News",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.NewsController",
+    "Method": "GetById",
+    "RelativePath": "api/News/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.NewsController",
+    "Method": "Update",
+    "RelativePath": "api/News/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newsItem",
+        "Type": "NewsPortal.Models.News",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewsPortal.API.Controllers.NewsController",
+    "Method": "Delete",
+    "RelativePath": "api/News/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

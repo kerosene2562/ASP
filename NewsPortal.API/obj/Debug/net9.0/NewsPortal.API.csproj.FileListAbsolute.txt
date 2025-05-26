@@ -86,3 +86,6 @@ D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\obj\Debug\net9.0\refint\NewsPo
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\obj\Debug\net9.0\NewsPortal.API.pdb
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\obj\Debug\net9.0\NewsPortal.API.genruntimeconfig.cache
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\obj\Debug\net9.0\ref\NewsPortal.API.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\bin\Debug\net9.0\NewsPortal.API.staticwebassets.runtime.json
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.API\obj\Debug\net9.0\NewsPortal.API.sourcelink.json

@@ -28,6 +28,18 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/programs/ASP/lab2/NewsPortalSln/NewsBlazor/Pages/Authentication/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programs/ASP/lab2/NewsPortalSln/NewsBlazor/Pages/Authentication/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programs/ASP/lab2/NewsPortalSln/NewsBlazor/Pages/Authentication/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/programs/ASP/lab2/NewsPortalSln/NewsBlazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -2,6 +2,12 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NewsPortal.Models;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
 
 namespace NewsPortal.API.Controllers
 {
@@ -11,12 +17,15 @@ namespace NewsPortal.API.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly IConfiguration _configuration;
 
         public AccountApiController(UserManager<IdentityUser> userManager,
-                                    SignInManager<IdentityUser> signInManager)
+                                    SignInManager<IdentityUser> signInManager,
+                                    IConfiguration configuration)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _configuration = configuration;
         }
 
         [HttpPost("register")]
@@ -41,12 +50,43 @@ namespace NewsPortal.API.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-            if (!result.Succeeded)
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null || !await _userManager.CheckPasswordAsync(user, model.Password))
                 return Unauthorized("Невдала спроба входу");
 
-            return Ok("Вхід виконано успішно");
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var authClaims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, user.UserName),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(JwtRegisteredClaimNames.Sub, user.Id)
+    };
+
+            foreach (var role in roles)
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+            var jwtSettings = _configuration.GetSection("JwtSettings");
+            var authSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]));
+
+            var token = new JwtSecurityToken(
+                issuer: jwtSettings["Issuer"],
+                audience: jwtSettings["Audience"],
+                expires: DateTime.UtcNow.AddHours(1),
+                claims: authClaims,
+                signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
+            );
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                expiration = token.ValidTo
+            });
         }
+
 
         [HttpPost("logout")]
         [Authorize]

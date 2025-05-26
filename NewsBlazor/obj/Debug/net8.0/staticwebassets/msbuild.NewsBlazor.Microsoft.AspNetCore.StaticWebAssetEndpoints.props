@@ -64,13 +64,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fd5bggvhph"},{"Name":"integrity","Value":"sha256-82\u002BeNcrbOScTyauXszqAGwiPskwbF61j9Gxkrw4aSUU="},{"Name":"label","Value":"index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"959"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002282\u002BeNcrbOScTyauXszqAGwiPskwbF61j9Gxkrw4aSUU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 12:52:21 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"959"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002282\u002BeNcrbOScTyauXszqAGwiPskwbF61j9Gxkrw4aSUU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 16:55:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-82\u002BeNcrbOScTyauXszqAGwiPskwbF61j9Gxkrw4aSUU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"959"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002282\u002BeNcrbOScTyauXszqAGwiPskwbF61j9Gxkrw4aSUU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 12:52:21 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"959"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002282\u002BeNcrbOScTyauXszqAGwiPskwbF61j9Gxkrw4aSUU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 16:55:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="NewsBlazor.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NewsBlazor.styles.css'))</AssetFile>
