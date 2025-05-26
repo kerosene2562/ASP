@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NewsBlazor.styles.css",
+      "PackagePath": "staticwebassets\\NewsBlazor.styles.css"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\programs\\ASP\\lab2\\NewsPortalSln\\NewsBlazor\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NewsBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NewsBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NewsBlazor.props",
+      "PackagePath": "build\\NewsBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NewsBlazor.props",
+      "PackagePath": "buildMultiTargeting\\NewsBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NewsBlazor.props",
+      "PackagePath": "buildTransitive\\NewsBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
