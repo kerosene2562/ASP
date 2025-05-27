@@ -6,6 +6,13 @@
         <p>@Model.Text</p>
         <h4>@Model.PublicationDate</h4>
 
+        <p>Лайків: @Model.ReactionCount</p>
+
+        <form method="post" asp-action="LikeNews">
+            <input type="hidden" name="newsId" value="@Model.NewsID" />
+            <button type="submit">Лайк</button>
+        </form>
+
         <form method="post" asp-action="SaveViewedNews">
             <input type="hidden" name="newsId" value="@Model.NewsID" />
             <input type="hidden" name="newsTitle" value="@Model.Title" />

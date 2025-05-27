@@ -10,3 +10,4 @@ D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.D
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\refint\NewsPortal.Data.dll
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.pdb
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\ref\NewsPortal.Data.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal.Data\obj\Debug\net8.0\NewsPortal.Data.sourcelink.json

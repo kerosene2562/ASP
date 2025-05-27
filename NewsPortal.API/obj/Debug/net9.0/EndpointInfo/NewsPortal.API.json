@@ -445,6 +445,10 @@
           "categoryID": {
             "type": "integer",
             "format": "int32"
+          },
+          "reactionCount": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

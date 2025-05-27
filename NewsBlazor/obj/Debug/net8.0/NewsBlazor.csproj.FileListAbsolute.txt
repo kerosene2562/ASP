@@ -1104,7 +1104,6 @@ D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\staticwebassets\m
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NewsBlazor.props
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NewsBlazor.props
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\staticwebassets.pack.json
-D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\NewsBlazor.csproj.Up2Date
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\NewsBlazor.dll
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\refint\NewsBlazor.dll
@@ -1175,6 +1174,6 @@ D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\48m2a0
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\jlhe25t8yr-f96etlqg03.gz
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\3ysjfy3fbp-8u7hd4iwzw.gz
 D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\sb46d161pe-zyudcniekx.gz
-D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\vdo4kp03l3-rits8ibs3f.gz
-D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\twhexonuy2-fr2xzul5ed.gz
-D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\kvkk2c5z2h-dsmqw3eq0y.gz
+D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\vdo4kp03l3-e9bw7h3npm.gz
+D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\twhexonuy2-noxq0m6yzg.gz
+D:\programs\ASP\lab2\NewsPortalSln\NewsBlazor\obj\Debug\net8.0\compressed\kvkk2c5z2h-l9n3v09l06.gz

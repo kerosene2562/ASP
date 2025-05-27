@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.SignalR;
 using NewsPortal.Models;
 
 namespace NewsPortal.Controllers
@@ -9,9 +9,12 @@ namespace NewsPortal.Controllers
     {
         private readonly INewsRepository repository;
 
-        public NewsController(INewsRepository repo)
+        private readonly IHubContext<NewsHub> _hubContext;
+
+        public NewsController(INewsRepository repo, IHubContext<NewsHub> hubContext)
         {
             repository = repo;
+            _hubContext = hubContext;
         }
 
         public IActionResult Index()
@@ -93,6 +96,20 @@ namespace NewsPortal.Controllers
                 repository.DeleteNews(newsItem);
             }
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> React(int id)
+        {
+            var news = repository.News.FirstOrDefault(n => n.NewsID == id);
+            if (news == null) return NotFound();
+
+            news.ReactionCount++;
+            repository.UpdateNews(news);
+
+            await _hubContext.Clients.All.SendAsync("ReceiveReaction", news.NewsID, news.ReactionCount);
+
+            return Ok();
         }
     }
 }

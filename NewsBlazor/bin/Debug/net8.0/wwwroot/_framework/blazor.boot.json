@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "NewsBlazor",
   "resources": {
-    "hash": "sha256-fDClvLT+KjfGLdMxl4uRIVZNV7fQj31jXt47nry4HKk=",
+    "hash": "sha256-9GiDFsVkFPyk6oIVFN7L9VnF749s97n+qpgr4hSnrJ8=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -237,10 +237,10 @@
       "mscorlib.wasm": "sha256-RAf5jgXLg+06C4tJ3CabxAZaVjCN2/+E6fxRjRN8yHk=",
       "netstandard.wasm": "sha256-KCAE8RQwTurP5pGnGF819qf9sK++2O0rXzt6tOjlfi8=",
       "System.Private.CoreLib.wasm": "sha256-LQqLbHgeEX4HONx7GwIxGgmzIXP6n2OPxqnq+/4Tyqk=",
-      "NewsBlazor.wasm": "sha256-jTurnj+huEmbajmEuGgecjPHVCKtj0ltdJFgpeaREUE="
+      "NewsBlazor.wasm": "sha256-AjyVmc2wSiFE9MieTunn1kSTmHpsbwrFkdUQmUug03M="
     },
     "pdb": {
-      "NewsBlazor.pdb": "sha256-xaiiqfTphkfz1PmmN9+uQGqGfvEqEOuA85hK7uWTkag="
+      "NewsBlazor.pdb": "sha256-+doQQ+w8xbL+WaCoSF2Ej+2KPEuo10GFWK2sX525Dhg="
     }
   },
   "cacheBootResources": true,

@@ -32,7 +32,8 @@ namespace NewsPortal.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -57,13 +58,18 @@ namespace NewsPortal.Migrations
                     b.Property<DateTime>("PublicationDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("ReactionCount")
+                        .HasColumnType("int");
+
                     b.Property<string>("Text")
                         .IsRequired()
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("NewsID");
 
@@ -74,13 +80,11 @@ namespace NewsPortal.Migrations
 
             modelBuilder.Entity("NewsPortal.Models.News", b =>
                 {
-                    b.HasOne("NewsPortal.Models.Category", "Category")
+                    b.HasOne("NewsPortal.Models.Category", null)
                         .WithMany("News")
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("NewsPortal.Models.Category", b =>

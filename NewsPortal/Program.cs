@@ -1,9 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Migrations;
 using NewsPortal.Models;
-using static NewsPortal.Models.NewsPortalDBContext;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -30,6 +27,7 @@ builder.Services.AddDbContext<NewsPortalDBContext>(opts =>
 });
 builder.Services.AddScoped<INewsRepository, EFNewsRepository>();
 
+builder.Services.AddSignalR();
 
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
@@ -93,11 +91,14 @@ builder.Services.AddAuthentication(options =>
 var app = builder.Build();
 app.UseSession();
 
-app.UseAuthentication();
+app.UseStaticFiles();        
+app.UseRouting();           
+app.UseAuthentication();    
 app.UseAuthorization();
 
-app.UseStaticFiles();
-app.MapDefaultControllerRoute();
+app.MapHub<NewsHub>("/newshub");       
+app.MapDefaultControllerRoute();      
+
 SeedData.EnsurePopulated(app);
 
 using (var scope = app.Services.CreateScope())

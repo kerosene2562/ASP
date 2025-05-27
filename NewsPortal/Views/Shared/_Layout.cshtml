@@ -1,7 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using System.Security.Claims
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,7 +94,6 @@
 			{
 				<a asp-controller="Category" asp-action="Index">Адмінка</a>
 			}
-
 			@if (!User.Identity.IsAuthenticated)
 			{
 				<a asp-controller="Account" asp-action="Login">Логін</a>
@@ -109,11 +107,29 @@
 				</form>
 			}
 		</div>
-
 	</header>
+
 	<div>
 		@RenderBody()
 	</div>
+
 	@RenderSection("Scripts", required: false)
+
+	<!-- SignalR Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+	<script>
+		const connection = new signalR.HubConnectionBuilder()
+			.withUrl("/newshub")
+			.build();
+
+		connection.on("ReceiveReaction", function (newsId, count) {
+			const el = document.querySelector(`#reaction-${newsId}`);
+			if (el) {
+				el.textContent = count;
+			}
+		});
+
+		connection.start().catch(err => console.error(err.toString()));
+	</script>
 </body>
 </html>

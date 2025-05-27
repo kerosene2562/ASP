@@ -170,7 +170,6 @@ D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\libman.json
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\NewsPortal.staticwebassets.runtime.json
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\obj\Debug\net8.0\NewsPortal.sourcelink.json
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -190,3 +189,9 @@ D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\NewsPortal.Data.d
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\NewsPortal.Data.pdb
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\obj\Debug\net8.0\NewsPortal.MvcApplicationPartsAssemblyInfo.cs
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\programs\ASP\lab2\NewsPortalSln\NewsPortal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

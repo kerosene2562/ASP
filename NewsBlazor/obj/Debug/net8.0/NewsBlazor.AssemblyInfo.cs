@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewsBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95e0be63e9e265bc3559e87318b1c07870ee8ad0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f3cc32b248bd02266df128d56a9b6960fc631ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewsBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewsBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
